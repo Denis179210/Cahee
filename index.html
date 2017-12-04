@@ -3,37 +3,124 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML template</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 </head>
-<body>
-	<header>
-		<section data-name="Denis_Bochar"></section>
-		
+<body class="body">
+	<header class="header">
+		<section data-name="Denis_Bochar"
+				 class="header_insert">
+				 <div class="header_top-panel">
+				 	<div class="logo">
+				 	<img src="img/logo.png"
+				 		 alt=""
+				 		 class="logo_image">
+				</div>
+				<nav class="navigation">
+					<a href=""
+					   class="link
+					   		  navigation_item
+					   		  __animate">home</a>
+					<a href=""
+					   class="link
+					   		  navigation_item
+					   		  __animate">about</a>
+					<a href=""
+					   class="link
+					   		  navigation_item
+					   		  __animate">services</a>
+					<a href=""
+					   class="link
+					   		  navigation_item
+					   		  __animate">gallery</a>
+					<a href=""
+					   class="link
+					   		  navigation_item
+					   		  __animate">blog</a>
+					<a href=""
+					   class="link
+					   		  navigation_item
+					   		  __animate">contact</a>
+				</nav>
+				 </div>
+				
+				<div class="header_info">
+					<h1 class="heading">Fresh Life</h1>
+					<p class="title">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores asperiores iste hic, aperiam commodi similique sed molestiae, temporibus?
+					</p>
+					<button class="db-button">get free now</button>
+				</div>
+				<div class="header_scroll">
+					<a href="#Denis_Bochar"><img src="img/scroll.png"
+						 alt=""></a>
+				</div>
+		</section>
 	</header>
 	<main class="main">
-		<section data-name="Vika_Dubovik">
-			
-		</section>
-		<section data-name="Vika_Dubovik">
-			
+		<section data-name="Sasha_Chmil">
+
 		</section>
 		<section data-name="Sasha_Chmil">
-			
-		</section>
-		<section data-name="Sasha_Chmil">
-			
+
 		</section>
 		<section data-name="Alena_Shadrina">
-			
+		
 		</section>
-		<section data-name="Denis_Bochar">
-			
+		<section data-name="Denis_Bochar"
+				 id="Denis_Bochar" 
+				 class="main_feedback">
+				<div class="main_feedback-insert">
+				 	<h1 class="heading
+				 			   heading--main-feedback">contact</h1>
+				 	<p class="title title--main-title">
+				 		For new projects, ideas, business or anything <br>
+				 		you'd like to discuss, contact with me!
+				 	</p>
+				 
+					 <div class="main_feedback-form">
+					 	<form class="feedback-form">
+							<input type="text"
+								   placeholder="Your name..." 
+								   class="feedback-form_field">
+							<div class="main_author-contact-item">
+								<h3 class="address_heading">ADRESS</h3>
+								<p class="address_info">123 City name, Street, City, Country</p>
+							</div>
+							<input type="email"
+								   placeholder="Your email..." 
+								   class="feedback-form_field">
+							<div class="main_author-contact-item">
+								<h3 class="address_heading">EMAIL</h3>
+								<p class="address_info">cahee@domain</p>
+							</div>
+							<input type="text"
+								   placeholder="Your phone number..." 
+								   class="feedback-form_field">
+							<div class="main_author-contact-item">
+								<h3 class="address_heading">PHONE</h3>
+								<p class="address_info">+012 345 6789</p>
+							</div>
+							<textarea placeholder="Your message..." 
+									  class="feedback-form_field
+											 feedback-form_field--message"></textarea>
+							<div class="feedback-form_button">
+								<button type="submit"
+										class="db-button
+											   db-button--submit">SEND</button>
+							</div>
+							
+						</form>
+					 </div>
+				</div>
 		</section>
 	</main>
 	<footer class="footer" data-name="Alena_Shadrina">
-		
+
 	</footer>
+
+
 	<script type="text/javascript" src="js/libs.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
 </body>
