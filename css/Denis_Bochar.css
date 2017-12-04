@@ -83,7 +83,8 @@
 
 .title {
   font-size: 17px;
-  line-height: 27px; }
+  line-height: 27px;
+  margin: 17px 0 }
   .title--main-title {
     text-align: center;
     margin: 40px 0 0 0; }
