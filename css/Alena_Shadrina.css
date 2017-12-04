@@ -201,7 +201,7 @@ span {
     align-items: center;
   }
 }
-.footer .logo {
+.footer_logo {
   margin: auto;
   position: absolute;
   top: 0;
@@ -210,7 +210,7 @@ span {
   right: 0;
 }
 @media (max-width: 1140px) {
-  .footer .logo {
+  .footer_logo {
     position: static;
     margin: 3px 0;
   }
