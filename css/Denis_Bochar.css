@@ -168,7 +168,8 @@
 .address {
   font-style: normal; }
   .address_heading {
-    margin: 5px 0; }
+    margin: 5px 0;
+    font-weight: 700; }
   .address_info {
     margin: 0; }
 
